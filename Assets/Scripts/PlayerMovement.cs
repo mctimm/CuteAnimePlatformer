@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         if(direction > 0){
             sprite.flipX = true;
         }else if (direction < 0){
-            sprite.flipY = false;
+            sprite.flipX = false;
         }
         
     }
