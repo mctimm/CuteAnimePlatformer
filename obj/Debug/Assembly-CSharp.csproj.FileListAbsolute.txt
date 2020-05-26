@@ -1,0 +1,1 @@
+c:\Users\mattt\CuteAnimePlatformer\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
