@@ -29,9 +29,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         
-        
-        animator.SetFloat("Speed", Mathf.Abs(speed));
-        transform.position += new Vector3(speed *Input.GetAxis("Horizontal"),0f,0f) * Time.deltaTime;
+        float direction = Input.GetAxis("Horizontal");
+        animator.SetFloat("Speed", direction);
+        transform.position += new Vector3(speed *direction,0f,0f) * Time.deltaTime;
+        if(direction > 0){
+            sprite.flipX = true;
+        }else if (direction < 0){
+            sprite.flipY = false;
+        }
         
     }
 }
