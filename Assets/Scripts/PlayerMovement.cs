@@ -22,13 +22,13 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
-        rb.velocity = Vector2.right * speed;
-        animator.SetFloat("Speed", Mathf.Abs(speed));
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if(Input.GetKey(KeyCode.A)){
             speed = -5f;
             sprite.flipX = false;
@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
         }else{
             speed = 0;
         }
+        animator.SetFloat("Speed", Mathf.Abs(speed));
+        transform.position += new Vector3(speed,0f,0f);
         
     }
 }
