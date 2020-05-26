@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         float direction = Input.GetAxis("Horizontal");
-        animator.SetFloat("Speed", direction);
+        animator.SetFloat("Speed", Mathf.Abs(direction));
         transform.position += new Vector3(speed *direction,0f,0f) * Time.deltaTime;
         if(direction > 0){
             sprite.flipX = true;
