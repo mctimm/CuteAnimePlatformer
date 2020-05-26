@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
 
     float speed = 5f;
-    float jumpSpeed;
+    float jumpSpeed = 3f;
     Animator animator;
     SpriteRenderer sprite;
     // Start is called before the first frame update
@@ -24,10 +24,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate(){
         float direction = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(speed *direction,0f);
-        if(Input.GetKeyDown("space")){
-            rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
-        }
+        rb.velocity = new Vector2(speed *direction,rb.velocity.y);
+        
     }
 
     // Update is called once per frame
@@ -41,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = true;
         }else if (direction < 0){
             sprite.flipX = false;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space)){
+            rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
         }
         
     }
