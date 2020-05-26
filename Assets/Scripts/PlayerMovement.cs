@@ -6,7 +6,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
+    bool isGrounded = true;
 
+    [SerializeField]
+    Transform groundCheck;
     float speed = 5f;
     float jumpSpeed = 3f;
     Animator animator;
@@ -23,16 +26,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
+        //float direction = Input.GetAxis("Horizontal");
+        isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+        
         float direction = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed *direction,rb.velocity.y);
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        float direction = Input.GetAxis("Horizontal");
-        
         animator.SetFloat("Speed", Mathf.Abs(direction));
         
         if(direction > 0){
@@ -41,9 +40,15 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKey(KeyCode.Space) && isGrounded){
             rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
         
     }
 }
