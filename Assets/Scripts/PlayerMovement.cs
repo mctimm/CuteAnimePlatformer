@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate(){
         float direction = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed *direction,0f);
-        if(Input.GetKeyDown("Space")){
+        if(Input.GetKeyDown("space")){
             rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
         }
     }
