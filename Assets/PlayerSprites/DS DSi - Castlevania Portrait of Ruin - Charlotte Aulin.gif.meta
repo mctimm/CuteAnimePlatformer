@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5163841011925344102
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_0
+    second: Charlotte_Idle1
   - first:
       213: 5268464920861195947
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_1
+    second: Charlotte_Idle5
   - first:
       213: 8575675634498114723
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_2
@@ -55,10 +55,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_16
   - first:
       213: 3738651825888803080
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_17
+    second: Charlotte_Idle2
   - first:
       213: 6210354982954003675
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_18
+    second: Charlotte_Idle6
   - first:
       213: -7135623307035312947
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_19
@@ -100,10 +100,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_31
   - first:
       213: 4422809513222624467
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_32
+    second: Charlotte_Idle3
   - first:
       213: -6015598836551694169
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_33
+    second: Charlotte_Idle7
   - first:
       213: -5556302195251522226
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_34
@@ -145,10 +145,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_46
   - first:
       213: 5737134930289345087
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_47
+    second: Charlotte_Idle4
   - first:
       213: 8705395491831872339
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_48
+    second: Charlotte_Idle8
   - first:
       213: -2384599147417154720
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_49
@@ -344,6 +344,345 @@ TextureImporter:
   - first:
       213: -6278557106509570461
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_113
+  - first:
+      213: 5492631430751063722
+    second: Charlotte_Idle1
+  - first:
+      213: -4628000011468640791
+    second: Charlotte_Idle5
+  - first:
+      213: 7462875487442282427
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_2
+  - first:
+      213: -3415580622331792548
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_3
+  - first:
+      213: -3204885210401210603
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_4
+  - first:
+      213: 3574601797291662054
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_5
+  - first:
+      213: -4491851214687362588
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_6
+  - first:
+      213: 8393736340037887507
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_7
+  - first:
+      213: -1399017572430535209
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_8
+  - first:
+      213: 7556002999825144249
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_9
+  - first:
+      213: 8196511452877253373
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_10
+  - first:
+      213: -8743571429929830695
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_11
+  - first:
+      213: -2911091531504235448
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_12
+  - first:
+      213: -1433612616660788864
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_13
+  - first:
+      213: -1952272320935321644
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_14
+  - first:
+      213: 3353938281609282253
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_15
+  - first:
+      213: 8562711702489736362
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_16
+  - first:
+      213: -8313333869122576843
+    second: Charlotte_Idle2
+  - first:
+      213: -4085532095669559762
+    second: Charlotte_Idle6
+  - first:
+      213: -8188666453041694770
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_19
+  - first:
+      213: -7963760489459503379
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_20
+  - first:
+      213: 5115485694436346740
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_21
+  - first:
+      213: 9094962600077539277
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_22
+  - first:
+      213: 6652628966145388448
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_23
+  - first:
+      213: -7649899433577995727
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_24
+  - first:
+      213: 6312905007250130875
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_25
+  - first:
+      213: 330836478578493755
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_26
+  - first:
+      213: 1165040294510518089
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_27
+  - first:
+      213: 2891744649764365728
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_28
+  - first:
+      213: -3344261570403855603
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_29
+  - first:
+      213: -1819539586566334521
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_30
+  - first:
+      213: 1553292295033628114
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_31
+  - first:
+      213: 5874663949739992157
+    second: Charlotte_Idle3
+  - first:
+      213: -3592012368320082599
+    second: Charlotte_Idle7
+  - first:
+      213: -8377848581206611316
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_34
+  - first:
+      213: 770858376892957722
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_35
+  - first:
+      213: -492303122663010175
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_36
+  - first:
+      213: 3443906718221470096
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_37
+  - first:
+      213: 2320487297256704205
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_38
+  - first:
+      213: -291183750439511222
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_39
+  - first:
+      213: 1164848530776346209
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_40
+  - first:
+      213: -8086577061489013478
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_41
+  - first:
+      213: 8111479634032078114
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_42
+  - first:
+      213: 5776841483625027430
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_43
+  - first:
+      213: -7127300038316935242
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_44
+  - first:
+      213: -5592320152821684818
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_45
+  - first:
+      213: 7187295275297058656
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_46
+  - first:
+      213: 6908800324523430068
+    second: Charlotte_Idle4
+  - first:
+      213: 6591255095473020180
+    second: Charlotte_Idle8
+  - first:
+      213: 8873875258677037985
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_49
+  - first:
+      213: 9083517230990214723
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_50
+  - first:
+      213: -137823807045855296
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_51
+  - first:
+      213: -5283814522733469521
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_52
+  - first:
+      213: 136534455874769359
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_53
+  - first:
+      213: 5955860758562208806
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_54
+  - first:
+      213: 3309908354139961103
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_55
+  - first:
+      213: -2739668189963347680
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_56
+  - first:
+      213: -7002354625745454472
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_57
+  - first:
+      213: -742579394315612431
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_58
+  - first:
+      213: -3559084417850654119
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_59
+  - first:
+      213: -9098929867866759592
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_60
+  - first:
+      213: -9162390411272544524
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_61
+  - first:
+      213: -2811336189549691430
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_62
+  - first:
+      213: 6512245256343955245
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_63
+  - first:
+      213: -341276088151803068
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_64
+  - first:
+      213: -3853162543352236462
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_65
+  - first:
+      213: 125832710744258655
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_66
+  - first:
+      213: 629530580472533084
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_67
+  - first:
+      213: -3196648794935175456
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_68
+  - first:
+      213: -5667146124182230704
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_69
+  - first:
+      213: -517641488202783915
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_70
+  - first:
+      213: 2257991049955213730
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_71
+  - first:
+      213: -5034534661125631571
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_72
+  - first:
+      213: -4251973556266078102
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_73
+  - first:
+      213: -9018970587356880143
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_74
+  - first:
+      213: 5433422874229885928
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_75
+  - first:
+      213: -6692900345411712974
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_76
+  - first:
+      213: -5296136452135974106
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_77
+  - first:
+      213: -5324117777220287384
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_78
+  - first:
+      213: -7365839926632124507
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_79
+  - first:
+      213: 2567327662394592467
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_80
+  - first:
+      213: -4845816575465176422
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_81
+  - first:
+      213: -3715916301473429251
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_82
+  - first:
+      213: -1196644369946495290
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_83
+  - first:
+      213: 7800349097513019988
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_84
+  - first:
+      213: 5424598045129833822
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_85
+  - first:
+      213: 4275111129706007171
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_86
+  - first:
+      213: -7228958461233635488
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_87
+  - first:
+      213: 1166516533373145400
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_88
+  - first:
+      213: -7006030724358133725
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_89
+  - first:
+      213: 6338216333705659234
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_90
+  - first:
+      213: -3664317281189968570
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_91
+  - first:
+      213: -8830368301372419372
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_92
+  - first:
+      213: -652958458745707205
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_93
+  - first:
+      213: 5013426897646624340
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_94
+  - first:
+      213: 8434032858259928494
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_95
+  - first:
+      213: 4195110485516144733
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_96
+  - first:
+      213: 5613639669859986525
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_97
+  - first:
+      213: 4668934937559287943
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_98
+  - first:
+      213: -91695257632982470
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_99
+  - first:
+      213: -2919226996353849911
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_100
+  - first:
+      213: 6401594888389484562
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_101
+  - first:
+      213: 3226238150054236916
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_102
+  - first:
+      213: -9170342270561766395
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_103
+  - first:
+      213: -1489234468670716948
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_104
+  - first:
+      213: 8454887053888355114
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_105
+  - first:
+      213: 6276114422554474747
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_106
+  - first:
+      213: -2340183283006231787
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_107
+  - first:
+      213: 595087949714937211
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_108
+  - first:
+      213: 5593654236126866269
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_109
+  - first:
+      213: -2466104724400814035
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_110
+  - first:
+      213: 4029777436742865149
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_111
+  - first:
+      213: 7096160465065140645
+    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_112
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -429,7 +768,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_0
+      name: Charlotte_Idle1
       rect:
         serializedVersion: 2
         x: 0
@@ -443,14 +782,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a90a89775f95658b0800000000000000
-      internalID: -5163841011925344102
+      spriteID: aae00106f2fb93c40800000000000000
+      internalID: 5492631430751063722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_1
+      name: Charlotte_Idle5
       rect:
         serializedVersion: 2
         x: 28
@@ -464,8 +803,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baeb9879ee85d1940800000000000000
-      internalID: 5268464920861195947
+      spriteID: 9ed68ef728a06cfb0800000000000000
+      internalID: -4628000011468640791
       vertices: []
       indices: 
       edges: []
@@ -485,8 +824,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a49b3fbd8be20770800000000000000
-      internalID: 8575675634498114723
+      spriteID: bb7a7ff37b5719760800000000000000
+      internalID: 7462875487442282427
       vertices: []
       indices: 
       edges: []
@@ -506,8 +845,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5173e0629c4a234c0800000000000000
-      internalID: -4309200709606295787
+      spriteID: c53b430458b6990d0800000000000000
+      internalID: -3415580622331792548
       vertices: []
       indices: 
       edges: []
@@ -527,8 +866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2063d52839c04a90800000000000000
-      internalID: -7331638950369206225
+      spriteID: 51ff120a1e5f583d0800000000000000
+      internalID: -3204885210401210603
       vertices: []
       indices: 
       edges: []
@@ -548,8 +887,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a257d661d13278f40800000000000000
-      internalID: 5730587658689541418
+      spriteID: 6eada0545698b9130800000000000000
+      internalID: 3574601797291662054
       vertices: []
       indices: 
       edges: []
@@ -569,8 +908,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979137979a487bbb0800000000000000
-      internalID: -4920318204457051783
+      spriteID: 4e127ac7e1db9a1c0800000000000000
+      internalID: -4491851214687362588
       vertices: []
       indices: 
       edges: []
@@ -590,8 +929,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09633150d84bfb670800000000000000
-      internalID: 8556756334795765392
+      spriteID: 316ee36baba8c7470800000000000000
+      internalID: 8393736340037887507
       vertices: []
       indices: 
       edges: []
@@ -611,8 +950,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728028dd7a19979f0800000000000000
-      internalID: -470184535921653721
+      spriteID: 7d5afb02ee0b59ce0800000000000000
+      internalID: -1399017572430535209
       vertices: []
       indices: 
       edges: []
@@ -632,8 +971,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c17749e078d13eb0800000000000000
-      internalID: -4741770953182711355
+      spriteID: 9b91d56e1b05cd860800000000000000
+      internalID: 7556002999825144249
       vertices: []
       indices: 
       edges: []
@@ -653,8 +992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f77d3f5a60a2d50800000000000000
-      internalID: 6713185504379502475
+      spriteID: dfa6b2a4dbbdfb170800000000000000
+      internalID: 8196511452877253373
       vertices: []
       indices: 
       edges: []
@@ -674,8 +1013,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83972ab17a947ebc0800000000000000
-      internalID: -3753950782318020296
+      spriteID: 9d637c22c1898a680800000000000000
+      internalID: -8743571429929830695
       vertices: []
       indices: 
       edges: []
@@ -695,8 +1034,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0420a697e7015380800000000000000
-      internalID: -8984391090381511666
+      spriteID: 84cca0cfca9b997d0800000000000000
+      internalID: -2911091531504235448
       vertices: []
       indices: 
       edges: []
@@ -716,8 +1055,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c9b4d23925c486e0800000000000000
-      internalID: -1836125967323186751
+      spriteID: 0895a66bbe8ca1ce0800000000000000
+      internalID: -1433612616660788864
       vertices: []
       indices: 
       edges: []
@@ -737,8 +1076,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610e747806a8e88e0800000000000000
-      internalID: -1689260663026229226
+      spriteID: 4df92ddeaa228e4e0800000000000000
+      internalID: -1952272320935321644
       vertices: []
       indices: 
       edges: []
@@ -758,8 +1097,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc2c5a61b9c97830800000000000000
-      internalID: 4069505502136773885
+      spriteID: dc2c7e1e8159b8e20800000000000000
+      internalID: 3353938281609282253
       vertices: []
       indices: 
       edges: []
@@ -779,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b0f3c5a8156e2740800000000000000
-      internalID: 5129148182156275895
+      spriteID: aa42bfc1decd4d670800000000000000
+      internalID: 8562711702489736362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_17
+      name: Charlotte_Idle2
       rect:
         serializedVersion: 2
         x: 1
@@ -800,14 +1139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 809b7f4070c52e330800000000000000
-      internalID: 3738651825888803080
+      spriteID: 53e99b754ea11ac80800000000000000
+      internalID: -8313333869122576843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_18
+      name: Charlotte_Idle6
       rect:
         serializedVersion: 2
         x: 30
@@ -821,8 +1160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcec0004fc9f2650800000000000000
-      internalID: 6210354982954003675
+      spriteID: e2e982f74364d47c0800000000000000
+      internalID: -4085532095669559762
       vertices: []
       indices: 
       edges: []
@@ -842,8 +1181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc792d886c29fc90800000000000000
-      internalID: -7135623307035312947
+      spriteID: ec7ba421f330c5e80800000000000000
+      internalID: -8188666453041694770
       vertices: []
       indices: 
       edges: []
@@ -863,8 +1202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a63c526b21cfe900800000000000000
-      internalID: 716003257853163172
+      spriteID: deea975570a0b7190800000000000000
+      internalID: -7963760489459503379
       vertices: []
       indices: 
       edges: []
@@ -884,8 +1223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca88dd0ab20018c80800000000000000
-      internalID: -8322370449021499220
+      spriteID: 47b8876d22bddf640800000000000000
+      internalID: 5115485694436346740
       vertices: []
       indices: 
       edges: []
@@ -905,8 +1244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23430f210f1211f90800000000000000
-      internalID: -6984764232081329102
+      spriteID: dc7b51f2c4cc73e70800000000000000
+      internalID: 9094962600077539277
       vertices: []
       indices: 
       edges: []
@@ -926,8 +1265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee010f1a811b45ed0800000000000000
-      internalID: -2426119579891658514
+      spriteID: 0afe19d2cc2e25c50800000000000000
+      internalID: 6652628966145388448
       vertices: []
       indices: 
       edges: []
@@ -947,8 +1286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00fc3f3ceacb1c40800000000000000
-      internalID: 5484200087275761678
+      spriteID: 1322f1efef816d590800000000000000
+      internalID: -7649899433577995727
       vertices: []
       indices: 
       edges: []
@@ -968,8 +1307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13685226c98d467d0800000000000000
-      internalID: -2925975691710855631
+      spriteID: bb7cde928a1fb9750800000000000000
+      internalID: 6312905007250130875
       vertices: []
       indices: 
       edges: []
@@ -989,8 +1328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6491200d8ffa32400800000000000000
-      internalID: 298275483513133382
+      spriteID: b398960460e579400800000000000000
+      internalID: 330836478578493755
       vertices: []
       indices: 
       edges: []
@@ -1010,8 +1349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd019ef1085770830800000000000000
-      internalID: 4037324784112570588
+      spriteID: 94fd057a9fd0b2010800000000000000
+      internalID: 1165040294510518089
       vertices: []
       indices: 
       edges: []
@@ -1031,8 +1370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13251ac37b1fac050800000000000000
-      internalID: 5821731237628301873
+      spriteID: 0a56756107a812820800000000000000
+      internalID: 2891744649764365728
       vertices: []
       indices: 
       edges: []
@@ -1052,8 +1391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb5a10b6006081b70800000000000000
-      internalID: 8869846064971228604
+      spriteID: d03961402dbc691d0800000000000000
+      internalID: -3344261570403855603
       vertices: []
       indices: 
       edges: []
@@ -1073,8 +1412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62cfbeaeacc63f540800000000000000
-      internalID: 5040492026738244646
+      spriteID: 7c7d3f7e262bfb6e0800000000000000
+      internalID: -1819539586566334521
       vertices: []
       indices: 
       edges: []
@@ -1094,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49d6b84bb2f47f0a0800000000000000
-      internalID: -6847917659262325356
+      spriteID: 2d5a4d5dc176e8510800000000000000
+      internalID: 1553292295033628114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_32
+      name: Charlotte_Idle3
       rect:
         serializedVersion: 2
         x: 2
@@ -1115,14 +1454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d45ad8b1d9f06d30800000000000000
-      internalID: 4422809513222624467
+      spriteID: d54ab0bacbff68150800000000000000
+      internalID: 5874663949739992157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_33
+      name: Charlotte_Idle7
       rect:
         serializedVersion: 2
         x: 31
@@ -1136,8 +1475,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a8451ceabc448ca0800000000000000
-      internalID: -6015598836551694169
+      spriteID: 95dc87548cb962ec0800000000000000
+      internalID: -3592012368320082599
       vertices: []
       indices: 
       edges: []
@@ -1157,8 +1496,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e455f4b879c04e2b0800000000000000
-      internalID: -5556302195251522226
+      spriteID: c8a6b276a17ebbb80800000000000000
+      internalID: -8377848581206611316
       vertices: []
       indices: 
       edges: []
@@ -1178,8 +1517,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3245c192d0d3daaf0800000000000000
-      internalID: -383583266523032541
+      spriteID: a14c6de0c93a2ba00800000000000000
+      internalID: 770858376892957722
       vertices: []
       indices: 
       edges: []
@@ -1199,8 +1538,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3021d37c5e366d1c0800000000000000
-      internalID: -4479282940832050685
+      spriteID: 1801bd31becfa29f0800000000000000
+      internalID: -492303122663010175
       vertices: []
       indices: 
       edges: []
@@ -1220,8 +1559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa8ae7b6efa9995d0800000000000000
-      internalID: -3055240454678337366
+      spriteID: 0990c23e9e63bcf20800000000000000
+      internalID: 3443906718221470096
       vertices: []
       indices: 
       edges: []
@@ -1241,8 +1580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda041a4ae5fed3e0800000000000000
-      internalID: -2026912395656164643
+      spriteID: dc8cac207e6043020800000000000000
+      internalID: 2320487297256704205
       vertices: []
       indices: 
       edges: []
@@ -1262,8 +1601,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b15fb40ab145be240800000000000000
-      internalID: 4822040303660430619
+      spriteID: a4bdfa6fbe185fbf0800000000000000
+      internalID: -291183750439511222
       vertices: []
       indices: 
       edges: []
@@ -1283,8 +1622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f0b176cba2892f0800000000000000
-      internalID: -965975131398926522
+      spriteID: 16e4f0e219f5a2010800000000000000
+      internalID: 1164848530776346209
       vertices: []
       indices: 
       edges: []
@@ -1304,8 +1643,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0e0103ff4d1fdc0800000000000000
-      internalID: -3606867634058895159
+      spriteID: a1d0021d105b6cf80800000000000000
+      internalID: -8086577061489013478
       vertices: []
       indices: 
       edges: []
@@ -1325,8 +1664,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4659399c342a24240800000000000000
-      internalID: 4774556966994548068
+      spriteID: 22d2c4d20c3c19070800000000000000
+      internalID: 8111479634032078114
       vertices: []
       indices: 
       edges: []
@@ -1346,8 +1685,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 874ebbc2b0638da40800000000000000
-      internalID: 5393119975399220344
+      spriteID: 667d53be8b67b2050800000000000000
+      internalID: 5776841483625027430
       vertices: []
       indices: 
       edges: []
@@ -1367,8 +1706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5688476c9da3b27e0800000000000000
-      internalID: -1789271719937800091
+      spriteID: 6b7bd70906eb61d90800000000000000
+      internalID: -7127300038316935242
       vertices: []
       indices: 
       edges: []
@@ -1388,8 +1727,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 078d473b4ddaaf2c0800000000000000
-      internalID: -4397010957118416784
+      spriteID: ea52ecc43761462b0800000000000000
+      internalID: -5592320152821684818
       vertices: []
       indices: 
       edges: []
@@ -1409,14 +1748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995f1b3a20a9f2420800000000000000
-      internalID: 2607472045397767577
+      spriteID: 06face319f66eb360800000000000000
+      internalID: 7187295275297058656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_47
+      name: Charlotte_Idle4
       rect:
         serializedVersion: 2
         x: 3
@@ -1430,14 +1769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f32c16c82d56e9f40800000000000000
-      internalID: 5737134930289345087
+      spriteID: 4b0925f6a4df0ef50800000000000000
+      internalID: 6908800324523430068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_48
+      name: Charlotte_Idle8
       rect:
         serializedVersion: 2
         x: 31
@@ -1451,8 +1790,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35bfcef9317cfc870800000000000000
-      internalID: 8705395491831872339
+      spriteID: 41d17ad5697d87b50800000000000000
+      internalID: 6591255095473020180
       vertices: []
       indices: 
       edges: []
@@ -1472,8 +1811,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06b4086a5b338eed0800000000000000
-      internalID: -2384599147417154720
+      spriteID: 1ab829e2886562b70800000000000000
+      internalID: 8873875258677037985
       vertices: []
       indices: 
       edges: []
@@ -1493,8 +1832,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2846fc3257f3d540800000000000000
-      internalID: 5031637141285128234
+      spriteID: 346cf488bc22f0e70800000000000000
+      internalID: 9083517230990214723
       vertices: []
       indices: 
       edges: []
@@ -1514,8 +1853,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0087f316767787200800000000000000
-      internalID: 178023471178020864
+      spriteID: 0c7907b4af9561ef0800000000000000
+      internalID: -137823807045855296
       vertices: []
       indices: 
       edges: []
@@ -1535,8 +1874,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b318e1ab48c712120800000000000000
-      internalID: 2387326186983162171
+      spriteID: fa0eb69bfae1ca6b0800000000000000
+      internalID: -5283814522733469521
       vertices: []
       indices: 
       edges: []
@@ -1556,8 +1895,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: affe92098e74918e0800000000000000
-      internalID: -1722266318315851782
+      spriteID: fc1540e3d5115e100800000000000000
+      internalID: 136534455874769359
       vertices: []
       indices: 
       edges: []
@@ -1577,8 +1916,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22294b0b3ba1b5d90800000000000000
-      internalID: -7108058227808103902
+      spriteID: 62cf9cdedc777a250800000000000000
+      internalID: 5955860758562208806
       vertices: []
       indices: 
       edges: []
@@ -1598,8 +1937,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a4bcc97ebcdff70800000000000000
-      internalID: 9222751807553096213
+      spriteID: f073c978c182fed20800000000000000
+      internalID: 3309908354139961103
       vertices: []
       indices: 
       edges: []
@@ -1619,8 +1958,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfaab1cc7d4627640800000000000000
-      internalID: 5076230608005081852
+      spriteID: 0291cceeb4ebaf9d0800000000000000
+      internalID: -2739668189963347680
       vertices: []
       indices: 
       edges: []
@@ -1640,8 +1979,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc119b1ffc3343fb0800000000000000
-      internalID: -4669049945469677109
+      spriteID: 87af0256193a2de90800000000000000
+      internalID: -7002354625745454472
       vertices: []
       indices: 
       edges: []
@@ -1661,8 +2000,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443828b882ad95830800000000000000
-      internalID: 4060516406725346116
+      spriteID: 1fe0b48a9f3d1b5f0800000000000000
+      internalID: -742579394315612431
       vertices: []
       indices: 
       edges: []
@@ -1682,8 +2021,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3affbb455577f6200800000000000000
-      internalID: 175490118868271011
+      spriteID: 952426c24979b9ec0800000000000000
+      internalID: -3559084417850654119
       vertices: []
       indices: 
       edges: []
@@ -1703,8 +2042,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 108ad6ab35d122610800000000000000
-      internalID: 1594869463489816577
+      spriteID: 85e1c9d4e7b1ab180800000000000000
+      internalID: -9098929867866759592
       vertices: []
       indices: 
       edges: []
@@ -1724,8 +2063,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b5d5fcfee05e4a0800000000000000
-      internalID: -6564824458683655335
+      spriteID: 4fe97a22776a8d080800000000000000
+      internalID: -9162390411272544524
       vertices: []
       indices: 
       edges: []
@@ -1745,8 +2084,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45d683a8de06d070800000000000000
-      internalID: 8130702500883256655
+      spriteID: addb0b571a02cf8d0800000000000000
+      internalID: -2811336189549691430
       vertices: []
       indices: 
       edges: []
@@ -1766,8 +2105,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49de15e16502281f0800000000000000
-      internalID: -1044236609348571756
+      spriteID: d27aa9aae84206a50800000000000000
+      internalID: 6512245256343955245
       vertices: []
       indices: 
       edges: []
@@ -1787,8 +2126,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef327ee195ae1260800000000000000
-      internalID: 7070270511207563243
+      spriteID: 44b706bb43b834bf0800000000000000
+      internalID: -341276088151803068
       vertices: []
       indices: 
       edges: []
@@ -1808,8 +2147,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d2a488ae99c71b0800000000000000
-      internalID: -5657477799296225912
+      spriteID: 25636ade411d68ac0800000000000000
+      internalID: -3853162543352236462
       vertices: []
       indices: 
       edges: []
@@ -1829,8 +2168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b59127319733a7540800000000000000
-      internalID: 5006370530886031707
+      spriteID: f5839090f2c0fb100800000000000000
+      internalID: 125832710744258655
       vertices: []
       indices: 
       edges: []
@@ -1850,8 +2189,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2682bc82aed2e23c0800000000000000
-      internalID: -4382514903654913950
+      spriteID: c509f404aba8cb800800000000000000
+      internalID: 629530580472533084
       vertices: []
       indices: 
       edges: []
@@ -1871,8 +2210,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f2345cf255a90b80800000000000000
-      internalID: -8428023451807894799
+      spriteID: 0e6553a8bd833a3d0800000000000000
+      internalID: -3196648794935175456
       vertices: []
       indices: 
       edges: []
@@ -1892,8 +2231,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfca8f96698cb330800000000000000
-      internalID: 3728005665412272062
+      spriteID: 059e2e930a04a51b0800000000000000
+      internalID: -5667146124182230704
       vertices: []
       indices: 
       edges: []
@@ -1913,8 +2252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b8425eec86a9a80800000000000000
-      internalID: -8459333712245126334
+      spriteID: 5532bae1fc7f0d8f0800000000000000
+      internalID: -517641488202783915
       vertices: []
       indices: 
       edges: []
@@ -1934,8 +2273,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66593e46875571340800000000000000
-      internalID: 4834426700582589798
+      spriteID: 2a1879685eef55f10800000000000000
+      internalID: 2257991049955213730
       vertices: []
       indices: 
       edges: []
@@ -1955,8 +2294,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0543c82daa42bec0800000000000000
-      internalID: -3552695048468216564
+      spriteID: da1173a566db12ab0800000000000000
+      internalID: -5034534661125631571
       vertices: []
       indices: 
       edges: []
@@ -1976,8 +2315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1598dc9bbcf329ab0800000000000000
-      internalID: -5002866091827033775
+      spriteID: a60f7681494fdf4c0800000000000000
+      internalID: -4251973556266078102
       vertices: []
       indices: 
       edges: []
@@ -1997,8 +2336,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb1223c45f1ec7d0800000000000000
-      internalID: -2896343061441143819
+      spriteID: 1f2a5ec090e26d280800000000000000
+      internalID: -9018970587356880143
       vertices: []
       indices: 
       edges: []
@@ -2018,8 +2357,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1dd07d3f50afcf0800000000000000
-      internalID: -217855087130848770
+      spriteID: 8eb44fc0155676b40800000000000000
+      internalID: 5433422874229885928
       vertices: []
       indices: 
       edges: []
@@ -2039,8 +2378,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be0738c17bab26b0800000000000000
-      internalID: -5319970029629403471
+      spriteID: 23845aaa89a0e13a0800000000000000
+      internalID: -6692900345411712974
       vertices: []
       indices: 
       edges: []
@@ -2060,8 +2399,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 569566ac869799100800000000000000
-      internalID: 115256756453923173
+      spriteID: 62b0078f4f75086b0800000000000000
+      internalID: -5296136452135974106
       vertices: []
       indices: 
       edges: []
@@ -2081,8 +2420,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc402f53067d4ba0800000000000000
-      internalID: -6103092163164222212
+      spriteID: 864417a071fec16b0800000000000000
+      internalID: -5324117777220287384
       vertices: []
       indices: 
       edges: []
@@ -2102,8 +2441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f8204873a8835d0800000000000000
-      internalID: -3082561973892509842
+      spriteID: 5afe3b4dc9747c990800000000000000
+      internalID: -7365839926632124507
       vertices: []
       indices: 
       edges: []
@@ -2123,8 +2462,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7513e5fcaf439f130800000000000000
-      internalID: 3600967628884947287
+      spriteID: 3dc401b18eaf0a320800000000000000
+      internalID: 2567327662394592467
       vertices: []
       indices: 
       edges: []
@@ -2144,8 +2483,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddd3665cb1a6a97e0800000000000000
-      internalID: -1757976037026284067
+      spriteID: a92c2b4bf7330ccb0800000000000000
+      internalID: -4845816575465176422
       vertices: []
       indices: 
       edges: []
@@ -2165,8 +2504,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6191ad75f97e8c9c0800000000000000
-      internalID: -3906618005184177898
+      spriteID: df8c793cfc96e6cc0800000000000000
+      internalID: -3715916301473429251
       vertices: []
       indices: 
       edges: []
@@ -2186,8 +2525,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b536580dc55a3a860800000000000000
-      internalID: 7540052019202319195
+      spriteID: 6c63ede194aa46fe0800000000000000
+      internalID: -1196644369946495290
       vertices: []
       indices: 
       edges: []
@@ -2207,8 +2546,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9dc7aa7cd73ac420800000000000000
-      internalID: 2650992750751108507
+      spriteID: 45a6d491d28604c60800000000000000
+      internalID: 7800349097513019988
       vertices: []
       indices: 
       edges: []
@@ -2228,8 +2567,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3495264ef0d3ba20800000000000000
-      internalID: 3077032760941319230
+      spriteID: e5dfd396e2b084b40800000000000000
+      internalID: 5424598045129833822
       vertices: []
       indices: 
       edges: []
@@ -2249,8 +2588,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756bf31c7da815e60800000000000000
-      internalID: 7949287476550415959
+      spriteID: 38a02750cee345b30800000000000000
+      internalID: 4275111129706007171
       vertices: []
       indices: 
       edges: []
@@ -2270,8 +2609,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff16be378c6862b00800000000000000
-      internalID: 803477779028599295
+      spriteID: 06f5d1684949dab90800000000000000
+      internalID: -7228958461233635488
       vertices: []
       indices: 
       edges: []
@@ -2291,8 +2630,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa0214331cb77d8e0800000000000000
-      internalID: -1668729067198668625
+      spriteID: 831935c4b9c403010800000000000000
+      internalID: 1166516533373145400
       vertices: []
       indices: 
       edges: []
@@ -2312,8 +2651,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87eac8071f08ca950800000000000000
-      internalID: 6461681339833560696
+      spriteID: 328292dfc2495ce90800000000000000
+      internalID: -7006030724358133725
       vertices: []
       indices: 
       edges: []
@@ -2333,8 +2672,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2174f4d5f76ede060800000000000000
-      internalID: 6984492031822219026
+      spriteID: 263ca189c2ed5f750800000000000000
+      internalID: 6338216333705659234
       vertices: []
       indices: 
       edges: []
@@ -2354,8 +2693,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ccfc049a93845c0800000000000000
-      internalID: -4231068450814964585
+      spriteID: 645c85ed8dab52dc0800000000000000
+      internalID: -3664317281189968570
       vertices: []
       indices: 
       edges: []
@@ -2375,8 +2714,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b40e9e16d3f02460800000000000000
-      internalID: 7215034704009757872
+      spriteID: 4d2d3d0b0da347580800000000000000
+      internalID: -8830368301372419372
       vertices: []
       indices: 
       edges: []
@@ -2396,8 +2735,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1335f70833eb9abc0800000000000000
-      internalID: -3771274084537642191
+      spriteID: b352065cdb930f6f0800000000000000
+      internalID: -652958458745707205
       vertices: []
       indices: 
       edges: []
@@ -2417,8 +2756,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6fb09d1f820736b0800000000000000
-      internalID: -5316778021387976854
+      spriteID: 45e9d9d7335439540800000000000000
+      internalID: 5013426897646624340
       vertices: []
       indices: 
       edges: []
@@ -2438,8 +2777,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63e76ec281e7c22e0800000000000000
-      internalID: -2149204279864951242
+      spriteID: ea53e8cf234bb0570800000000000000
+      internalID: 8434032858259928494
       vertices: []
       indices: 
       edges: []
@@ -2459,8 +2798,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06abf44651c635ab0800000000000000
-      internalID: -5020550320454911392
+      spriteID: d50d4ba82c6083a30800000000000000
+      internalID: 4195110485516144733
       vertices: []
       indices: 
       edges: []
@@ -2480,8 +2819,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d8d936e44d44dc00800000000000000
-      internalID: 924448781833459922
+      spriteID: d5cab039987a7ed40800000000000000
+      internalID: 5613639669859986525
       vertices: []
       indices: 
       edges: []
@@ -2501,8 +2840,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9443a964d458d7040800000000000000
-      internalID: 4647016957459706953
+      spriteID: 788c1a0b6936bc040800000000000000
+      internalID: 4668934937559287943
       vertices: []
       indices: 
       edges: []
@@ -2522,8 +2861,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8f82d939b6ae390800000000000000
-      internalID: -7788294323842778910
+      spriteID: a3ab23526ab3abef0800000000000000
+      internalID: -91695257632982470
       vertices: []
       indices: 
       edges: []
@@ -2543,8 +2882,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00a671a15369f1da0800000000000000
-      internalID: -5971889426054813184
+      spriteID: 9c529977382dc77d0800000000000000
+      internalID: -2919226996353849911
       vertices: []
       indices: 
       edges: []
@@ -2564,8 +2903,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73ede4d9d6b9fbf0800000000000000
-      internalID: -289999654292167811
+      spriteID: 210696642a807d850800000000000000
+      internalID: 6401594888389484562
       vertices: []
       indices: 
       edges: []
@@ -2585,8 +2924,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3819d786ed268d40800000000000000
-      internalID: 5586202855944558653
+      spriteID: 4f2dbce0186e5cc20800000000000000
+      internalID: 3226238150054236916
       vertices: []
       indices: 
       edges: []
@@ -2606,8 +2945,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5676f19958a3d7f90800000000000000
-      internalID: -6954337904116144283
+      spriteID: 504ba6e9a466cb080800000000000000
+      internalID: -9170342270561766395
       vertices: []
       indices: 
       edges: []
@@ -2627,8 +2966,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953d5a357839c0ec0800000000000000
-      internalID: -3599339792742624423
+      spriteID: ce34d9b142d255be0800000000000000
+      internalID: -1489234468670716948
       vertices: []
       indices: 
       edges: []
@@ -2648,8 +2987,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e23124b59f2eacc0800000000000000
-      internalID: -3697965924005891357
+      spriteID: a2b7017cafac55570800000000000000
+      internalID: 8454887053888355114
       vertices: []
       indices: 
       edges: []
@@ -2669,8 +3008,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836c0747d8d14d860800000000000000
-      internalID: 7553694968388306488
+      spriteID: bf8b016a0dc391750800000000000000
+      internalID: 6276114422554474747
       vertices: []
       indices: 
       edges: []
@@ -2690,8 +3029,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e78fec75835382300800000000000000
-      internalID: 227490297289832574
+      spriteID: 51b2b13f3bff58fd0800000000000000
+      internalID: -2340183283006231787
       vertices: []
       indices: 
       edges: []
@@ -2711,8 +3050,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2616f80d72864ea50800000000000000
-      internalID: 6549474278315614562
+      spriteID: b75dfdc565d224800800000000000000
+      internalID: 595087949714937211
       vertices: []
       indices: 
       edges: []
@@ -2732,8 +3071,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7581dc98a832ab720800000000000000
-      internalID: 2862639591071750231
+      spriteID: d5b63bc24e6a0ad40800000000000000
+      internalID: 5593654236126866269
       vertices: []
       indices: 
       edges: []
@@ -2753,8 +3092,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5ff89df94ed639d0800000000000000
-      internalID: -2794802109368172709
+      spriteID: d284d23b1d2a6cdd0800000000000000
+      internalID: -2466104724400814035
       vertices: []
       indices: 
       edges: []
@@ -2774,8 +3113,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36c2123051be0d480800000000000000
-      internalID: -8876336390067901341
+      spriteID: df051f06a35ace730800000000000000
+      internalID: 4029777436742865149
       vertices: []
       indices: 
       edges: []
@@ -2795,8 +3134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9508876468a15470800000000000000
-      internalID: 8381665530700367258
+      spriteID: 5a1e06d8850aa7260800000000000000
+      internalID: 7096160465065140645
       vertices: []
       indices: 
       edges: []
