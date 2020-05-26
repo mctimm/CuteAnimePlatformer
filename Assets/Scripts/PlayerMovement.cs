@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    float speed = 0;
+    float speed = 5f;
     Animator animator;
     SpriteRenderer sprite;
     // Start is called before the first frame update
@@ -29,17 +29,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         
-        if(Input.GetKey(KeyCode.A)){
-            speed = -5f;
-            sprite.flipX = false;
-        }else if(Input.GetKey(KeyCode.D)){
-            speed = 5f;
-            sprite.flipX = true;
-        }else{
-            speed = 0;
-        }
+        
         animator.SetFloat("Speed", Mathf.Abs(speed));
-        transform.position += new Vector3(speed,0f,0f);
+        transform.position += new Vector3(speed *Input.GetAxis("Horizontal"),0f,0f) * Time.deltaTime;
         
     }
 }
