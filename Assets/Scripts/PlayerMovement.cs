@@ -8,6 +8,16 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded = true;
 
+    int Health = 5;
+
+    float BLINKTIMETOTAL = 3.0f;
+    float BLINKDURATION = 0.2f;
+    float blinkTimeCurrent = 0.0f;
+    float blinkTimeCurrentmini = 0.0f;
+
+    bool isBlinking;
+
+
     [SerializeField]
     Transform groundCheck;
     float speed = 5f;
@@ -52,7 +62,42 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(isBlinking){
+            SpriteBlink();
+        }        
+    }
 
-        
+    private void Recoil(){
+        if(rb.velocity.x > 0){
+            rb.velocity = new Vector2(-3f,rb.velocity.y);
+        }else{
+            rb.velocity = new Vector2(3f,rb.velocity.y);
+        }
+    }
+
+    private void SpriteBlink(){
+        blinkTimeCurrent += Time.deltaTime;
+        blinkTimeCurrentmini += Time.deltaTime;
+        if(blinkTimeCurrent > BLINKTIMETOTAL){
+            isBlinking = false;
+            sprite.enabled = true;
+        }else{
+            if(blinkTimeCurrentmini > BLINKDURATION){
+                sprite.enabled = !sprite.enabled;
+                blinkTimeCurrentmini = 0.0f;
+            }
+        }
+    }
+
+
+
+    void EnterOnCollision2D(Collision2D col){
+        if(col.gameObject.tag == "Enemy"){
+            Health--;
+            Recoil();
+            isBlinking = true;
+            blinkTimeCurrentmini = 0.0f;
+            blinkTimeCurrent = 0.0f;
+        }
     }
 }
