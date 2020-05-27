@@ -10,22 +10,22 @@ TextureImporter:
     second: Charlotte_Idle5
   - first:
       213: 8575675634498114723
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_2
+    second: Charlotte_Run1
   - first:
       213: -4309200709606295787
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_3
+    second: Charlotte_Run2
   - first:
       213: -7331638950369206225
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_4
+    second: Charlotte_Run3
   - first:
       213: 5730587658689541418
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_5
+    second: Charlotte_Run4
   - first:
       213: -4920318204457051783
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_6
   - first:
       213: 8556756334795765392
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_7
+    second: Charlotte_Run5
   - first:
       213: -470184535921653721
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_8
@@ -52,7 +52,7 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_15
   - first:
       213: 5129148182156275895
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_16
+    second: Charlotte_Jump1(don't use)
   - first:
       213: 3738651825888803080
     second: Charlotte_Idle2
@@ -61,22 +61,22 @@ TextureImporter:
     second: Charlotte_Idle6
   - first:
       213: -7135623307035312947
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_19
+    second: Charlotte_Run6
   - first:
       213: 716003257853163172
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_20
+    second: Charlotte_Run7
   - first:
       213: -8322370449021499220
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_21
+    second: Charlotte_Run8
   - first:
       213: -6984764232081329102
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_22
+    second: Charlotte_Run9
   - first:
       213: -2426119579891658514
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_23
   - first:
       213: 5484200087275761678
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_24
+    second: Charlotte_Run10
   - first:
       213: -2925975691710855631
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_25
@@ -106,16 +106,16 @@ TextureImporter:
     second: Charlotte_Idle7
   - first:
       213: -5556302195251522226
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_34
+    second: Charlotte_Run11
   - first:
       213: -383583266523032541
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_35
+    second: Charlotte_Run12
   - first:
       213: -4479282940832050685
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_36
+    second: Charlotte_Run13
   - first:
       213: -3055240454678337366
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_37
+    second: Charlotte_Run14
   - first:
       213: -2026912395656164643
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_38
@@ -124,22 +124,22 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_39
   - first:
       213: -965975131398926522
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_40
+    second: Charlotte_Jump1(don't use)
   - first:
       213: -3606867634058895159
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_41
+    second: Charlotte_Jump2
   - first:
       213: 4774556966994548068
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_42
   - first:
       213: 5393119975399220344
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_43
+    second: Charlotte_Land4
   - first:
       213: -1789271719937800091
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_44
+    second: Charlotte_Land3
   - first:
       213: -4397010957118416784
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_45
+    second: Charlotte_Land4
   - first:
       213: 2607472045397767577
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_46
@@ -151,16 +151,16 @@ TextureImporter:
     second: Charlotte_Idle8
   - first:
       213: -2384599147417154720
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_49
+    second: Charlotte_Run15
   - first:
       213: 5031637141285128234
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_50
+    second: Charlotte_Run16
   - first:
       213: 178023471178020864
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_51
+    second: Charlotte_Run17
   - first:
       213: 2387326186983162171
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_52
+    second: Charlotte_Run18
   - first:
       213: -1722266318315851782
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_53
@@ -172,10 +172,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_55
   - first:
       213: 5076230608005081852
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_56
+    second: Charlotte_Land3
   - first:
       213: -4669049945469677109
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_57
+    second: Charlotte_Land4
   - first:
       213: 4060516406725346116
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_58
@@ -190,10 +190,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_61
   - first:
       213: 8130702500883256655
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_62
+    second: Charlotte_JumpB2
   - first:
       213: -1044236609348571756
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_63
+    second: Charlotte_JumpB1
   - first:
       213: 7070270511207563243
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_64
@@ -352,22 +352,22 @@ TextureImporter:
     second: Charlotte_Idle5
   - first:
       213: 7462875487442282427
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_2
+    second: Charlotte_Run1
   - first:
       213: -3415580622331792548
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_3
+    second: Charlotte_Run2
   - first:
       213: -3204885210401210603
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_4
+    second: Charlotte_Run3
   - first:
       213: 3574601797291662054
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_5
+    second: Charlotte_Run4
   - first:
       213: -4491851214687362588
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_6
   - first:
       213: 8393736340037887507
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_7
+    second: Charlotte_Run5
   - first:
       213: -1399017572430535209
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_8
@@ -394,7 +394,7 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_15
   - first:
       213: 8562711702489736362
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_16
+    second: Charlotte_Jump1(don't use)
   - first:
       213: -8313333869122576843
     second: Charlotte_Idle2
@@ -403,22 +403,22 @@ TextureImporter:
     second: Charlotte_Idle6
   - first:
       213: -8188666453041694770
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_19
+    second: Charlotte_Run6
   - first:
       213: -7963760489459503379
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_20
+    second: Charlotte_Run7
   - first:
       213: 5115485694436346740
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_21
+    second: Charlotte_Run8
   - first:
       213: 9094962600077539277
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_22
+    second: Charlotte_Run9
   - first:
       213: 6652628966145388448
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_23
   - first:
       213: -7649899433577995727
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_24
+    second: Charlotte_Run10
   - first:
       213: 6312905007250130875
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_25
@@ -448,16 +448,16 @@ TextureImporter:
     second: Charlotte_Idle7
   - first:
       213: -8377848581206611316
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_34
+    second: Charlotte_Run11
   - first:
       213: 770858376892957722
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_35
+    second: Charlotte_Run12
   - first:
       213: -492303122663010175
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_36
+    second: Charlotte_Run13
   - first:
       213: 3443906718221470096
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_37
+    second: Charlotte_Run14
   - first:
       213: 2320487297256704205
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_38
@@ -466,22 +466,22 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_39
   - first:
       213: 1164848530776346209
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_40
+    second: Charlotte_Jump1(don't use)
   - first:
       213: -8086577061489013478
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_41
+    second: Charlotte_Jump2
   - first:
       213: 8111479634032078114
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_42
   - first:
       213: 5776841483625027430
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_43
+    second: Charlotte_Land4
   - first:
       213: -7127300038316935242
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_44
+    second: Charlotte_Land3
   - first:
       213: -5592320152821684818
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_45
+    second: Charlotte_Land4
   - first:
       213: 7187295275297058656
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_46
@@ -493,16 +493,16 @@ TextureImporter:
     second: Charlotte_Idle8
   - first:
       213: 8873875258677037985
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_49
+    second: Charlotte_Run15
   - first:
       213: 9083517230990214723
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_50
+    second: Charlotte_Run16
   - first:
       213: -137823807045855296
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_51
+    second: Charlotte_Run17
   - first:
       213: -5283814522733469521
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_52
+    second: Charlotte_Run18
   - first:
       213: 136534455874769359
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_53
@@ -514,10 +514,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_55
   - first:
       213: -2739668189963347680
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_56
+    second: Charlotte_Land3
   - first:
       213: -7002354625745454472
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_57
+    second: Charlotte_Land4
   - first:
       213: -742579394315612431
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_58
@@ -532,10 +532,10 @@ TextureImporter:
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_61
   - first:
       213: -2811336189549691430
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_62
+    second: Charlotte_JumpB2
   - first:
       213: 6512245256343955245
-    second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_63
+    second: Charlotte_JumpB1
   - first:
       213: -341276088151803068
     second: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_64
@@ -810,7 +810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_2
+      name: Charlotte_Run1
       rect:
         serializedVersion: 2
         x: 61
@@ -831,7 +831,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_3
+      name: Charlotte_Run2
       rect:
         serializedVersion: 2
         x: 97
@@ -852,7 +852,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_4
+      name: Charlotte_Run3
       rect:
         serializedVersion: 2
         x: 127
@@ -873,7 +873,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_5
+      name: Charlotte_Run4
       rect:
         serializedVersion: 2
         x: 163
@@ -915,7 +915,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_7
+      name: Charlotte_Run5
       rect:
         serializedVersion: 2
         x: 230
@@ -1104,7 +1104,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_16
+      name: Charlotte_Jump1
       rect:
         serializedVersion: 2
         x: 545
@@ -1167,7 +1167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_19
+      name: Charlotte_Run6
       rect:
         serializedVersion: 2
         x: 61
@@ -1188,7 +1188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_20
+      name: Charlotte_Run7
       rect:
         serializedVersion: 2
         x: 98
@@ -1209,7 +1209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_21
+      name: Charlotte_Run8
       rect:
         serializedVersion: 2
         x: 128
@@ -1230,7 +1230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_22
+      name: Charlotte_Run9
       rect:
         serializedVersion: 2
         x: 165
@@ -1272,7 +1272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_24
+      name: Charlotte_Run10
       rect:
         serializedVersion: 2
         x: 231
@@ -1482,7 +1482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_34
+      name: Charlotte_Run11
       rect:
         serializedVersion: 2
         x: 63
@@ -1503,7 +1503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_35
+      name: Charlotte_Run12
       rect:
         serializedVersion: 2
         x: 97
@@ -1524,7 +1524,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_36
+      name: Charlotte_Run13
       rect:
         serializedVersion: 2
         x: 128
@@ -1545,7 +1545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_37
+      name: Charlotte_Run14
       rect:
         serializedVersion: 2
         x: 166
@@ -1608,7 +1608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_40
+      name: Charlotte_Jump1(don't use)
       rect:
         serializedVersion: 2
         x: 264
@@ -1629,7 +1629,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_41
+      name: Charlotte_Jump2
       rect:
         serializedVersion: 2
         x: 296
@@ -1671,7 +1671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_43
+      name: Charlotte_Jump3
       rect:
         serializedVersion: 2
         x: 386
@@ -1692,7 +1692,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_44
+      name: Charlotte_Land1
       rect:
         serializedVersion: 2
         x: 416
@@ -1713,7 +1713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_45
+      name: Charlotte_Land2
       rect:
         serializedVersion: 2
         x: 444
@@ -1797,7 +1797,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_49
+      name: Charlotte_Run15
       rect:
         serializedVersion: 2
         x: 64
@@ -1818,7 +1818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_50
+      name: Charlotte_Run16
       rect:
         serializedVersion: 2
         x: 97
@@ -1839,7 +1839,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_51
+      name: Charlotte_Run17
       rect:
         serializedVersion: 2
         x: 129
@@ -1860,7 +1860,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_52
+      name: Charlotte_Run18
       rect:
         serializedVersion: 2
         x: 167
@@ -1944,7 +1944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_56
+      name: Charlotte_Land3
       rect:
         serializedVersion: 2
         x: 304
@@ -1965,7 +1965,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_57
+      name: Charlotte_Land4
       rect:
         serializedVersion: 2
         x: 338
@@ -2070,7 +2070,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_62
+      name: Charlotte_JumpB2
       rect:
         serializedVersion: 2
         x: 2
@@ -2091,7 +2091,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Castlevania Portrait of Ruin - Charlotte Aulin_63
+      name: Charlotte_JumpB1
       rect:
         serializedVersion: 2
         x: 32
