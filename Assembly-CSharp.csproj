@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/UnityInstall/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
