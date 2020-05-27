@@ -69,9 +69,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Recoil(){
         if(rb.velocity.x > 0){
-            rb.velocity = new Vector2(-3f,rb.velocity.y);
+            rb.position -= new Vector2(3f,0f);
         }else{
-            rb.velocity = new Vector2(3f,rb.velocity.y);
+            rb.velocity += new Vector2(3f,0f);
         }
     }
 
