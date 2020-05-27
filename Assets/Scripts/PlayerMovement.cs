@@ -91,8 +91,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    void EnterOnCollision2D(Collision2D col){
-        if(col.gameObject.tag == "Enemy"){
+    void OnCollisionEnter2D(Collision2D col){
+        if(col.gameObject.tag.Equals("Enemy")){
             Health--;
             Recoil();
             isBlinking = true;

@@ -17,7 +17,7 @@ public class EnemyMovement : MonoBehaviour
     } 
     void Start()
     {
-        direction = 1;
+        direction = -1;
     }
 
     // Update is called once per frame
@@ -31,7 +31,8 @@ public class EnemyMovement : MonoBehaviour
             direction = -direction;
             totalMovement = 0.0f;
         }
-        totalMovement = Mathf.Abs(Time.deltaTime * rb.velocity.x) ;
+        totalMovement += Mathf.Abs(Time.deltaTime * rb.velocity.x) ;
         rb.velocity = new Vector2(direction * speed, 0f);
+        gameObject.GetComponent<SpriteRenderer>().flipX = direction < 0;
     }
 }
