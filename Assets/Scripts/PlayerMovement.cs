@@ -43,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.Space) && isGrounded){
             rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
         }
+        animator.SetFloat("JumpSpeed", rb.velocity.y);
+        animator.SetBool("IsGrounded", isGrounded);
+        animator.SetBool("Pout", false);
+
     }
 
     // Update is called once per frame
