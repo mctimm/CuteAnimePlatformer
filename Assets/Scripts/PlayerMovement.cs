@@ -71,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         if(rb.velocity.x > 0){
             rb.position -= new Vector2(3f,0f);
         }else{
-            rb.velocity += new Vector2(3f,0f);
+            rb.position += new Vector2(3f,0f);
         }
     }
 
