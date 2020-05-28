@@ -68,10 +68,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Recoil(){
-        if(rb.velocity.x > 0){
-            rb.position -= new Vector2(3f,0f);
+        if(sprite.flipX){
+            rb.position -= new Vector2(2f,0f);
         }else{
-            rb.position += new Vector2(3f,0f);
+            rb.position += new Vector2(2f,0f);
         }
     }
 

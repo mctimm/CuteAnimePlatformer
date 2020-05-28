@@ -10,10 +10,13 @@ public class EnemyMovement : MonoBehaviour
     int direction = 0;
     float speed = 3f;
 
+    Animator animator;
+
     Rigidbody2D rb;
 
     void Awake(){
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animator = gameObject.GetComponent<Animator>();
     } 
     void Start()
     {
@@ -34,5 +37,7 @@ public class EnemyMovement : MonoBehaviour
         totalMovement += Mathf.Abs(Time.deltaTime * rb.velocity.x) ;
         rb.velocity = new Vector2(direction * speed, 0f);
         gameObject.GetComponent<SpriteRenderer>().flipX = direction < 0;
+        animator.SetFloat("Speed", Mathf.Abs(direction));
+
     }
 }
