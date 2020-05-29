@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -79,7 +80,13 @@ public class PlayerMovement : MonoBehaviour
             isBlinking = false;
             gameOver = true;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            rb.velocity = Vector2.zero;
+            Invoke("EndGame", 2.0f);
         }   
+    }
+
+    void EndGame(){
+            SceneManager.LoadScene("GameOverScene");        
     }
 
     private void Recoil(){
