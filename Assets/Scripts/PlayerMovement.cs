@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded = true;
 
+    bool gameOver = false;
+
     int Health = 5;
 
     float BLINKTIMETOTAL = 3.0f;
@@ -37,6 +39,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate(){
         //float direction = Input.GetAxis("Horizontal");
+        if(gameOver){
+            return;
+        }
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
         
         float direction = Input.GetAxis("Horizontal");
@@ -55,7 +60,11 @@ public class PlayerMovement : MonoBehaviour
         }
         animator.SetFloat("JumpSpeed", rb.velocity.y);
         animator.SetBool("IsGrounded", isGrounded);
-        animator.SetBool("Pout", false);
+        if(Input.GetKey(KeyCode.P)){
+            animator.SetBool("Pout", true);
+        }else{
+            animator.SetBool("Pout", false);
+        }
 
     }
 
@@ -64,7 +73,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isBlinking){
             SpriteBlink();
-        }        
+        }
+        if(Health <= 0){
+            sprite.enabled = false;
+            isBlinking = false;
+            gameOver = true;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }   
     }
 
     private void Recoil(){
@@ -92,12 +107,14 @@ public class PlayerMovement : MonoBehaviour
 
 
     void OnCollisionEnter2D(Collision2D col){
-        if(col.gameObject.tag.Equals("Enemy")){
+
+        if(col.gameObject.tag.Equals("Enemy") ){
             Health--;
             Recoil();
             isBlinking = true;
             blinkTimeCurrentmini = 0.0f;
             blinkTimeCurrent = 0.0f;
         }
+
     }
 }
