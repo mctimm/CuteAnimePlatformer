@@ -23,6 +23,10 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     Transform groundCheck;
+    [SerializeField]
+    Transform groundCheckL;
+    [SerializeField]
+    Transform groundCheckR;
     float speed = 5f;
     float jumpSpeed = 7f;
     Animator animator;
@@ -44,7 +48,11 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-        
+        isGrounded |= Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground"));
+        isGrounded |= Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground"));
+        print(LayerMask.NameToLayer("Ground"));
+        print(isGrounded);
+
         float direction = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed *direction,rb.velocity.y);
 
