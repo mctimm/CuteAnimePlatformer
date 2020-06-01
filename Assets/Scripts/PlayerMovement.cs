@@ -50,8 +50,8 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
         isGrounded |= Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground"));
         isGrounded |= Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground"));
-        print(LayerMask.NameToLayer("Ground"));
-        print(isGrounded);
+        //print(LayerMask.NameToLayer("Ground"));
+        //print(isGrounded);
 
         float direction = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed *direction,rb.velocity.y);
@@ -129,6 +129,10 @@ public class PlayerMovement : MonoBehaviour
             isBlinking = true;
             blinkTimeCurrentmini = 0.0f;
             blinkTimeCurrent = 0.0f;
+        }
+
+        if(col.gameObject.tag.Equals("KillZone")){
+            Health = 0;
         }
 
     }

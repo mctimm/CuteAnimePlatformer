@@ -21,18 +21,25 @@ public class CameraFollow : MonoBehaviour
         float playerX = playerTransform.position.x;
 
         //this should move the camera to keep up with the player
+        
         if(playerX < temp.x)
         {//for if the player is going back
             if(temp.x - playerX >= offset)
             {
                 temp.x = playerX + offset;
             }
-        }else if(playerX > temp.x)
+        }
+        else if(playerX > temp.x)
         {// for when the player is going forward.
             if(playerX - temp.x >= offset)
             {
                 temp.x = playerX - offset;
             }
+        }
+
+        if(temp.x <= -4f){
+            temp.x = -4f;
+
         }
 
         gameObject.transform.position = temp;
