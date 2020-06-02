@@ -39,6 +39,8 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
+     <Compile Include="Assets\Scripts\FireBallBehavior.cs" />
+     <Compile Include="Assets\Scripts\FireBallCast.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/UnityInstall/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
