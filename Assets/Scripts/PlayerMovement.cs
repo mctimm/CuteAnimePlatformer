@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     bool isGrounded = true;
+    bool invincible = false;
+    float currentDirection;
 
     bool gameOver = false;
 
@@ -39,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
-        
+        currentDirection = -1;
     }
 
     void FixedUpdate(){
@@ -58,10 +60,9 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(direction));
         
-        if(direction > 0){
-            sprite.flipX = true;
-        }else if (direction < 0){
-            sprite.flipX = false;
+        if(!(currentDirection * direction >= 0)){
+            Flip();
+            currentDirection = direction;
         }
 
         if(Input.GetKey(KeyCode.Space) && isGrounded){
@@ -75,6 +76,10 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Pout", false);
         }
 
+    }
+
+    void Flip(){
+        transform.Rotate(0f,180f, 0f);
     }
 
     // Update is called once per frame
@@ -111,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
         if(blinkTimeCurrent > BLINKTIMETOTAL){
             isBlinking = false;
             sprite.enabled = true;
+            invincible = false;
         }else{
             if(blinkTimeCurrentmini > BLINKDURATION){
                 sprite.enabled = !sprite.enabled;
@@ -123,12 +129,13 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col){
 
-        if(col.gameObject.tag.Equals("Enemy") ){
+        if(col.gameObject.tag.Equals("Enemy") && !invincible ){
             Health--;
             Recoil();
             isBlinking = true;
             blinkTimeCurrentmini = 0.0f;
             blinkTimeCurrent = 0.0f;
+            invincible = true;
         }
 
         if(col.gameObject.tag.Equals("KillZone")){
