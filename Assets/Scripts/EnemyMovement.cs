@@ -30,14 +30,20 @@ public class EnemyMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
-        if(totalMovement > MOVEMENTCAP){
+        if(totalMovement > MOVEMENTCAP || rb.velocity.x == 0){
             direction = -direction;
             totalMovement = 0.0f;
         }
         totalMovement += Mathf.Abs(Time.deltaTime * rb.velocity.x) ;
-        rb.velocity = new Vector2(direction * speed, 0f);
+        rb.velocity = new Vector2(direction * speed, rb.velocity.y);
         gameObject.GetComponent<SpriteRenderer>().flipX = direction < 0;
         animator.SetFloat("Speed", Mathf.Abs(direction));
 
     }
+
+    // void OnCollisionEnter2D(Collision2D col){
+    //     if(!col.gameObject.tag.Equals("Player")){
+    //         direction = -direction;
+    //     }
+    // }
 }
