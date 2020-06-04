@@ -12,7 +12,8 @@ public class FireBallCast : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.K)){
-            Shoot();
+            //Shoot();
+            Invoke("Shoot", 0f);
         }
     }
 

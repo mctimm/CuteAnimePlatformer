@@ -70,10 +70,15 @@ public class PlayerMovement : MonoBehaviour
         }
         animator.SetFloat("JumpSpeed", rb.velocity.y);
         animator.SetBool("IsGrounded", isGrounded);
-        if(Input.GetKey(KeyCode.P)){
+        if(Input.GetKey(KeyCode.K)){
+            animator.SetBool("SpellCasting", true);
+            animator.SetBool("Pout", false);
+        }else if(Input.GetKey(KeyCode.P)){
             animator.SetBool("Pout", true);
+            animator.SetBool("SpellCasting", false);
         }else{
             animator.SetBool("Pout", false);
+            animator.SetBool("SpellCasting", false);
         }
 
     }
