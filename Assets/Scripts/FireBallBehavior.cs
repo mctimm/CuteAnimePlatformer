@@ -12,7 +12,7 @@ public class FireBallBehavior : MonoBehaviour
     }
     void Start()
     {
-        rb.velocity = transform.right * -3f;
+        rb.velocity = transform.right * -8f;
         sprite.flipX = true;
     }
 
@@ -23,6 +23,8 @@ public class FireBallBehavior : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col){
-        Destroy(gameObject);
+        if(col.gameObject.tag != "EditorOnly"){
+            Destroy(gameObject);
+        }
     }
 }
