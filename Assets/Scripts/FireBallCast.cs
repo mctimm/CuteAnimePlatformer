@@ -17,7 +17,7 @@ public class FireBallCast : MonoBehaviour
     }
 
     void Shoot(){
-        Instantiate(fireball, firePoint.position, Quaternion.identity);
+        Instantiate(fireball, firePoint.position, firePoint.rotation);
     }
 
     

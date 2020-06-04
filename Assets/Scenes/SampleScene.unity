@@ -1590,6 +1590,7 @@ GameObject:
   - component: {fileID: 1484725136}
   - component: {fileID: 1484725135}
   - component: {fileID: 1484725137}
+  - component: {fileID: 1484725138}
   m_Layer: 0
   m_Name: Player-Female
   m_TagString: Player
@@ -1747,6 +1748,21 @@ MonoBehaviour:
   groundCheck: {fileID: 1995193060}
   groundCheckL: {fileID: 1439492176}
   groundCheckR: {fileID: 278857863}
+--- !u!114 &1484725138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484725131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a89b72ea9b1b949945955bd01e4c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireball: {fileID: 8570996035298054548, guid: 6141a9f1ac7075f4a9301aac31c03769,
+    type: 3}
+  firePoint: {fileID: 2065532786}
 --- !u!1 &1545856404
 GameObject:
   m_ObjectHideFlags: 0

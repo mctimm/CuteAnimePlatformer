@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class FireBallBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Rigidbody2D rb;
+    SpriteRenderer sprite;
+    void Awake(){
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        sprite = gameObject.GetComponent<SpriteRenderer>();
+    }
     void Start()
+    {
+        rb.velocity = transform.right * -3f;
+        sprite.flipX = true;
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void OnTriggerEnter2D(Collider2D col){
+        Destroy(gameObject);
     }
 }
