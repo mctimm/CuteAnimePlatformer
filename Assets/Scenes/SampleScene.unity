@@ -2443,6 +2443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763e044a7391b5349af8135ab99c8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpellsLeft: 5
   groundCheck: {fileID: 1995193060}
   groundCheckL: {fileID: 1439492176}
   groundCheckR: {fileID: 278857863}
@@ -2458,7 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a89b72ea9b1b949945955bd01e4c9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireball: {fileID: 8570996035298054548, guid: 6141a9f1ac7075f4a9301aac31c03769,
+  fireball: {fileID: 5095788405692087513, guid: a8456e4babf372e4989713aa2bfdcd3e,
     type: 3}
   firePoint: {fileID: 2065532786}
 --- !u!1 &1545856404

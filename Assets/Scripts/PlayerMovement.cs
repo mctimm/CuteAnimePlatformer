@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     bool gameOver = false;
 
     int Health = 5;
+    public int SpellsLeft = 5;
+    bool Spellcasted;
 
     float BLINKTIMETOTAL = 3.0f;
     float BLINKDURATION = 0.2f;
@@ -70,16 +72,7 @@ public class PlayerMovement : MonoBehaviour
         }
         animator.SetFloat("JumpSpeed", rb.velocity.y);
         animator.SetBool("IsGrounded", isGrounded);
-        if(Input.GetKey(KeyCode.K)){
-            animator.SetBool("SpellCasting", true);
-            animator.SetBool("Pout", false);
-        }else if(Input.GetKey(KeyCode.P)){
-            animator.SetBool("Pout", true);
-            animator.SetBool("SpellCasting", false);
-        }else{
-            animator.SetBool("Pout", false);
-            animator.SetBool("SpellCasting", false);
-        }
+        
 
     }
 
@@ -100,7 +93,24 @@ public class PlayerMovement : MonoBehaviour
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
             rb.velocity = Vector2.zero;
             Invoke("EndGame", 2.0f);
-        }   
+        }
+           if(Input.GetKeyDown(KeyCode.K) && SpellsLeft > 0){
+            animator.SetBool("SpellCasting", true);
+            Spellcasted = true;
+            print(SpellsLeft);
+            animator.SetBool("Pout", false);
+        }else if(Input.GetKey(KeyCode.P)){
+            animator.SetBool("Pout", true);
+            animator.SetBool("SpellCasting", false);
+        }else{
+            animator.SetBool("Pout", false);
+            animator.SetBool("SpellCasting", false);
+        }
+    }
+
+    void LateUpdate(){
+        if(Spellcasted) SpellsLeft--;
+        Spellcasted = false;
     }
 
     void EndGame(){

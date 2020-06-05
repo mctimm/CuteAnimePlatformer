@@ -23,7 +23,8 @@ public class FireBallBehavior : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col){
-        if(col.gameObject.tag != "EditorOnly"){
+        if(!col.gameObject.tag.Equals("EditorOnly") && !col.gameObject.tag.Equals("Player")){
+            print(col.gameObject.tag);
             Destroy(gameObject);
         }
     }
