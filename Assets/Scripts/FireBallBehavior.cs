@@ -24,6 +24,12 @@ public class FireBallBehavior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if(!col.gameObject.tag.Equals("EditorOnly") && !col.gameObject.tag.Equals("Player")){
+            if(col.gameObject.tag.Equals("Enemy")){
+                GhoulMovement enemy = col.gameObject.GetComponent<GhoulMovement>();
+                if(enemy != null){
+                    enemy.Death();
+                }
+            }
             print(col.gameObject.tag);
             Destroy(gameObject);
         }
