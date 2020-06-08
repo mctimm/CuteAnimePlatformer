@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     Transform groundCheckR;
     float speed = 5f;
-    float jumpSpeed = 7f;
+    float jumpSpeed = 8f;
     Animator animator;
     SpriteRenderer sprite;
     // Start is called before the first frame update
