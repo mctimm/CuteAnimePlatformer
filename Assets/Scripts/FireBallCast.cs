@@ -21,6 +21,10 @@ public class FireBallCast : MonoBehaviour
         }
     }
 
+    public void ChangeWeapon(GameObject weapon){
+        fireball = weapon;
+    }
+
     void Shoot(){
         Instantiate(fireball, firePoint.position, firePoint.rotation);
     }
