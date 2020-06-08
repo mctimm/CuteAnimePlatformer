@@ -41,9 +41,9 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
-    // void OnCollisionEnter2D(Collision2D col){
-    //     if(!col.gameObject.tag.Equals("Player")){
-    //         direction = -direction;
-    //     }
-    // }
+    void OnCollisionEnter2D(Collision2D col){
+        if(!col.gameObject.tag.Equals("Player")){
+            direction = -direction;
+        }
+    }
 }
