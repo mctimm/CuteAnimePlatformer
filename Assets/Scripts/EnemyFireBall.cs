@@ -26,10 +26,10 @@ public class EnemyFireBall : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if(!col.gameObject.tag.Equals("EditorOnly")){
-            if(col.gameObject.tag.Equals("Enemy")){
+            if(col.gameObject.tag.Equals("Player")){
                 PlayerMovement player = col.gameObject.GetComponent<PlayerMovement>();
                 if(player != null){
-                    player.health--;
+                    player.takeDamage();
                 }
             }
             print(col.gameObject.tag);

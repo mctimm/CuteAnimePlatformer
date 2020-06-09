@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GhoulMovement : MonoBehaviour
+public class GhoulMovement : EnemyBasics
 {
     // Start is called before the first frame update
     float totalMovement = 0.0f;
@@ -53,7 +53,7 @@ public class GhoulMovement : MonoBehaviour
         }
     }
 
-    public void Death(){
+    public override void Death(){
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         rb.gravityScale = 0;
         rb.velocity = Vector2.zero;

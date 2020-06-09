@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WizardBehavior : MonoBehaviour
+public class WizardBehavior : EnemyBasics
 {
     // Start is called before the first frame update
     Animator animator;
@@ -23,6 +23,8 @@ public class WizardBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("isCasting", casting);
+        casting = false;
         timeCurrent += Time.deltaTime;
         if(timeCurrent > 5){
             Cast();
@@ -32,20 +34,16 @@ public class WizardBehavior : MonoBehaviour
 
     void Cast(){
         casting = true;
-        Invoke("InstantiateFire", 0.3f);
+        Invoke("InstantiateFire", 0.5f);
     }
 
     private void InstantiateFire(){
         Instantiate(fireBall, firePoint.position, firePoint.rotation);
     }
 
-    void LateUpdate(){
-        casting = false;
-    }
 
-    public void Death(){
+    public override void Death(){
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        
         animator.SetBool("Dead", true);
         Destroy(gameObject, 0.5f);
         dead = true;

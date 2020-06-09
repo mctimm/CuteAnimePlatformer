@@ -38,13 +38,17 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AxBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\EnemyBasics.cs" />
+     <Compile Include="Assets\Scripts\EnemyFireBall.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
      <Compile Include="Assets\Scripts\FireBallBehavior.cs" />
      <Compile Include="Assets\Scripts\FireBallCast.cs" />
      <Compile Include="Assets\Scripts\GhoulMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\UIInGame.cs" />
      <Compile Include="Assets\Scripts\WeaponChange.cs" />
+     <Compile Include="Assets\Scripts\WizardBehavior.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity Editors/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

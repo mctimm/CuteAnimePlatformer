@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     bool isGrounded = true;
+    bool flipped = false;
     bool invincible = false;
     float currentDirection;
 
@@ -78,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip(){
         transform.Rotate(0f,180f, 0f);
+        flipped = !flipped;
     }
 
     // Update is called once per frame
@@ -118,7 +120,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Recoil(){
-        if(sprite.flipX){
+        
+        if(flipped){
             rb.position -= new Vector2(2f,0f);
         }else{
             rb.position += new Vector2(2f,0f);
@@ -140,17 +143,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
+    public void takeDamage(){
+        if(invincible){
+            return;
+        }
+        health--;
+        Recoil();
+        isBlinking = true;
+        blinkTimeCurrentmini = 0.0f;
+        blinkTimeCurrent = 0.0f;
+        invincible = true;
+    }
 
     void OnCollisionEnter2D(Collision2D col){
 
         if(col.gameObject.tag.Equals("Enemy") && !invincible ){
-            health--;
-            Recoil();
-            isBlinking = true;
-            blinkTimeCurrentmini = 0.0f;
-            blinkTimeCurrent = 0.0f;
-            invincible = true;
+            takeDamage();
         }
 
         if(col.gameObject.tag.Equals("KillZone")){
