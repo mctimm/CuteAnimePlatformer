@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     bool gameOver = false;
 
-    int Health = 5;
+    public int health = 5;
     public int SpellsLeft = 5;
     bool Spellcasted;
 
@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
         if(isBlinking){
             SpriteBlink();
         }
-        if(Health <= 0){
+        if(health <= 0){
             sprite.enabled = false;
             isBlinking = false;
             gameOver = true;
@@ -145,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col){
 
         if(col.gameObject.tag.Equals("Enemy") && !invincible ){
-            Health--;
+            health--;
             Recoil();
             isBlinking = true;
             blinkTimeCurrentmini = 0.0f;
@@ -154,7 +154,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(col.gameObject.tag.Equals("KillZone")){
-            Health = 0;
+            health = 0;
         }
 
     }
