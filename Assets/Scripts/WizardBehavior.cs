@@ -23,10 +23,14 @@ public class WizardBehavior : EnemyBasics
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("Dead", dead);
+        if(dead){
+            return;
+        }
         animator.SetBool("isCasting", casting);
         casting = false;
         timeCurrent += Time.deltaTime;
-        if(timeCurrent > 5){
+        if(timeCurrent > 2){
             Cast();
             timeCurrent = 0;
         }
@@ -44,8 +48,8 @@ public class WizardBehavior : EnemyBasics
 
     public override void Death(){
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        animator.SetBool("Dead", true);
-        Destroy(gameObject, 0.5f);
         dead = true;
+        Destroy(gameObject, 0.5f);
+        
     }
 }
