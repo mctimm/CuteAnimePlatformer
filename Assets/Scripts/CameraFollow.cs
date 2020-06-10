@@ -42,6 +42,11 @@ public class CameraFollow : MonoBehaviour
 
         }
 
+        if(temp.x >= 137f){
+            temp.x = 137f;
+
+        }
+
         gameObject.transform.position = temp;
 
     }

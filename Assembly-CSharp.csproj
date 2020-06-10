@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\FireBallBehavior.cs" />
      <Compile Include="Assets\Scripts\FireBallCast.cs" />
      <Compile Include="Assets\Scripts\GhoulMovement.cs" />
+     <Compile Include="Assets\Scripts\LevelEnder.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\UIInGame.cs" />
      <Compile Include="Assets\Scripts\WeaponChange.cs" />

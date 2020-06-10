@@ -47,9 +47,11 @@ public class WizardBehavior : EnemyBasics
 
 
     public override void Death(){
+        gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         dead = true;
         Destroy(gameObject, 0.5f);
+        
         
     }
 }

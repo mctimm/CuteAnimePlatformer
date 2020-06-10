@@ -24,7 +24,7 @@ public class AxBehavior : MonoBehaviour
        void OnTriggerEnter2D(Collider2D col){
         if(!col.gameObject.tag.Equals("EditorOnly") && !col.gameObject.tag.Equals("Player")){
             if(col.gameObject.tag.Equals("Enemy")){
-                GhoulMovement enemy = col.gameObject.GetComponent<GhoulMovement>();
+                EnemyBasics enemy = col.gameObject.GetComponent<EnemyBasics>();
                 if(enemy != null){
                     enemy.Death();
                 }
