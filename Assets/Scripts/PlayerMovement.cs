@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     Transform groundCheckR;
     float speed = 5f;
+    float accel = 4f;
+    float slowDown = 2f;
     float jumpSpeed = 8f;
     Animator animator;
     SpriteRenderer sprite;
@@ -59,7 +61,8 @@ public class PlayerMovement : MonoBehaviour
         //print(isGrounded);
 
         float direction = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(speed *direction,rb.velocity.y);
+        float currentAccel = accel *direction;
+        
 
         animator.SetFloat("Speed", Mathf.Abs(direction));
         
@@ -73,6 +76,35 @@ public class PlayerMovement : MonoBehaviour
         }
         animator.SetFloat("JumpSpeed", rb.velocity.y);
         animator.SetBool("IsGrounded", isGrounded);
+        float absSpeed = Mathf.Abs(rb.velocity.x);
+        
+        if(!isGrounded)
+        {
+            currentAccel /= 8;
+        }
+        else {
+            if(absSpeed < slowDown){
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            }
+            else if(rb.velocity.x > 0){
+                rb.velocity = new Vector2(rb.velocity.x - slowDown, rb.velocity.y);
+            }else if (rb.velocity.x < 0){
+                rb.velocity = new Vector2(rb.velocity.x + slowDown, rb.velocity.y);
+            }
+        }
+        rb.velocity = new Vector2(rb.velocity.x + currentAccel, rb.velocity.y);
+        
+        absSpeed = Mathf.Abs(rb.velocity.x);
+        print("before check: " + (absSpeed >= speed));
+        if(absSpeed >= speed){
+            if(rb.velocity.x > 0){
+                rb.velocity = new Vector2(speed, rb.velocity.y);
+            }else{
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
+            }
+        }
+
+        print("After check: " + rb.velocity);
         
 
     }
