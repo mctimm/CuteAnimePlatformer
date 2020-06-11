@@ -16,11 +16,13 @@ public class AxBehavior : MonoBehaviour
         Vector2 fortyfive = transform.right * -7f;
         fortyfive.y = 7f;
         rb.velocity = fortyfive;
+        
     }
 
-    // void Update(){
-    //     print(rb.velocity);
-    //     }
+    void FixedUpdate(){
+         rb.rotation -= 10f;
+         
+    }
        void OnTriggerEnter2D(Collider2D col){
         if(!col.gameObject.tag.Equals("EditorOnly") && !col.gameObject.tag.Equals("Player")){
             if(col.gameObject.tag.Equals("Enemy")){
