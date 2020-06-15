@@ -32,7 +32,9 @@ public class PlayerMovement : MonoBehaviour
     Transform groundCheckL;
     [SerializeField]
     Transform groundCheckR;
-    float speed = 5f;
+    float speed = 6f;
+    float walkSpeed  = 4f;
+    float runSpeed = 6f;
     float accel = 4f;
     float slowDown = 2f;
     float jumpSpeed = 8f;
@@ -63,6 +65,11 @@ public class PlayerMovement : MonoBehaviour
         float direction = Input.GetAxis("Horizontal");
         float currentAccel = accel *direction;
         
+        if(Input.GetKey(KeyCode.L)){
+            speed = runSpeed;
+        }else{
+            speed = walkSpeed;
+        }
 
         animator.SetFloat("Speed", Mathf.Abs(direction));
         
@@ -71,12 +78,18 @@ public class PlayerMovement : MonoBehaviour
             currentDirection = direction;
         }
 
-        if(Input.GetKey(KeyCode.Space) && isGrounded){
-            rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
-        }
+        
+
+        
         animator.SetFloat("JumpSpeed", rb.velocity.y);
         animator.SetBool("IsGrounded", isGrounded);
         float absSpeed = Mathf.Abs(rb.velocity.x);
+
+        if(rb.velocity.y < 0 || !Input.GetKey(KeyCode.Space)){
+            rb.gravityScale = 2;
+        }else {
+            rb.gravityScale = 1;
+        }
         
         if(!isGrounded)
         {
@@ -139,6 +152,10 @@ public class PlayerMovement : MonoBehaviour
         }else{
             animator.SetBool("Pout", false);
             animator.SetBool("SpellCasting", false);
+        }
+
+        if(Input.GetKey(KeyCode.Space) && isGrounded){
+            rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
         }
     }
 
