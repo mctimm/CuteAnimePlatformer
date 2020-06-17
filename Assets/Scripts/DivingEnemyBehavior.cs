@@ -34,15 +34,17 @@ public class DivingEnemyBehavior : EnemyBasics
         currentTime += Time.deltaTime;
         if(currentTime >= attackTime && !dead){
             Swoop();
+            currentTime = 0f;
         }
-
+        
+        print(rb.velocity);
         
     }
 
-    void FixedupDate(){
-        if(rb.velocity.y == 0){
-            rb.gravityScale = -0.5f;
-        }
+    void FixedUpdate(){
+        //if(rb.velocity.y == 0){
+            //rb.gravityScale = -2.5f;
+        //}
 
         if(gameObject.transform.position.y >= highPosition){
             Vector3 temp = gameObject.transform.position;

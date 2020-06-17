@@ -108,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x + currentAccel, rb.velocity.y);
         
         absSpeed = Mathf.Abs(rb.velocity.x);
-        print("before check: " + (absSpeed >= speed));
+        //print("before check: " + (absSpeed >= speed));
         if(absSpeed >= speed){
             if(rb.velocity.x > 0){
                 rb.velocity = new Vector2(speed, rb.velocity.y);
@@ -117,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        print("After check: " + rb.velocity);
+        //print("After check: " + rb.velocity);
         
 
     }
@@ -144,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
            if(Input.GetKeyDown(KeyCode.K) && SpellsLeft > 0){
             animator.SetBool("SpellCasting", true);
             Spellcasted = true;
-            print(SpellsLeft);
+            //print(SpellsLeft);
             animator.SetBool("Pout", false);
         }else if(Input.GetKey(KeyCode.P)){
             animator.SetBool("Pout", true);
