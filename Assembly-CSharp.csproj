@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AxBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\DivingEnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\EnemyBasics.cs" />
      <Compile Include="Assets\Scripts\EnemyFireBall.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
