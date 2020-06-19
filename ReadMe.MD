@@ -1,3 +1,3 @@
-This is the ReadMe for this platformer game
+This is the ReadMe for this test area.
 
-Currently still working on the underlying logic and level 1
+This is a testing project in unity currently being used until more pixel art/sprites are created.
